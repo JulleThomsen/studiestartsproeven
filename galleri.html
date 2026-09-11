@@ -6,6 +6,7 @@
     <title>Galleri</title>
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/layout.css" />
 
     <meta name="robots" content="noindex" />
     <!--font overskrifter-->
@@ -20,6 +21,8 @@
 
   <body>
     <header>
+      <img class="logo" src="imgs/desktop-solid-full.svg" alt="logo" />
+
       <nav>
         <ul>
           <li><a href="index.html">Forsiden</a></li>
@@ -31,21 +34,30 @@
       </nav>
     </header>
     <main>
-      <h1>Galleri</h1>
-      <h2>Udseende</h2>
-      <p>Det er ret vildt, hvor forskellige, og nogle gange hvor ens, computere ser ud. Her kan du se nogle eksempler på, hvordan computere ser ud. Bemærk forskelle og ligheder på de forskellige billeder.</p>
-      <img src="imgs/galleri/macbook.webp" alt="macbook" />
-      <img src="imgs/galleri/apple-84.webp" alt="apple-84" />
-      <img src="imgs/galleri/desktop-setup.webp" alt="desktop-setup" />
-      <img src="imgs/galleri/code.webp" alt="code" />
-      <img src="imgs/galleri/intel-chip.webp" alt="intel-chip" />
-      <img src="imgs/galleri/keyboard.webp" alt="keyboard" />
+      <section class="grid_1-1">
+        <div>
+          <h1>Galleri</h1>
+        </div>
+        <div>
+          <h2>Udseende</h2>
+          <p class="maxwidth">Det er ret vildt, hvor forskellige, og nogle gange hvor ens, computere ser ud. Her kan du se nogle eksempler på, hvordan computere ser ud. Bemærk forskelle og ligheder på de forskellige billeder.</p>
+        </div>
+      </section>
+
+      <section class="grid_1-1-1-1">
+        <img src="imgs/galleri/macbook.webp" alt="macbook" />
+        <img src="imgs/galleri/apple-84.webp" alt="apple-84" />
+        <img src="imgs/galleri/desktop-setup.webp" alt="desktop-setup" />
+        <img src="imgs/galleri/code.webp" alt="code" />
+        <img src="imgs/galleri/intel-chip.webp" alt="intel-chip" />
+        <img src="imgs/galleri/keyboard.webp" alt="keyboard" />
+      </section>
     </main>
 
     <footer>
       <p>2026 Computere · Lavet med interesse for teknologi og computerudstyr</p>
       <p>Kontakt os for mere info på mail:</p>
-      <a href="tech@gmail.com">tech@gmail.com</a>
+      <a href="mailto:tech@gmail.com">tech@gmail.com</a>
     </footer>
   </body>
 </html>

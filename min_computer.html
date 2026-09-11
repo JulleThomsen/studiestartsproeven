@@ -6,6 +6,7 @@
     <title>Min computer</title>
 
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/layout.css" />
 
     <meta name="robots" content="noindex" />
     <!--font overskrifter-->
@@ -20,6 +21,8 @@
 
   <body>
     <header>
+      <img class="logo" src="imgs/desktop-solid-full.svg" alt="logo" />
+
       <nav>
         <ul>
           <li><a href="index.html">Forsiden</a></li>
@@ -33,23 +36,30 @@
 
     <main>
       <h1>Min computer</h1>
-      <img src="imgs/computer-cutout.webp" alt="MacBook" />
-      <h2><em>MacBook Air</em></h2>
-      <p>En MacBook Air er Apples mest populære, ultratynde bærbare computer, som er kendt for sit stilrene design, lette vægt og ekstremt lange batterilevetid.</p>
-      <dl>
-        <dt>Chip</dt>
-        <dd>Apple M2</dd>
-        <dt>Hukommelse</dt>
-        <dd>8 GB</dd>
-        <dt>Startdisk</dt>
-        <dd>Macintosh HD</dd>
-      </dl>
+      <section class="grid_1-1">
+        <div>
+          <img src="imgs/mincomputer.webp" alt="MacBook" />
+        </div>
+        <div>
+          <h2><em>MacBook Air</em></h2>
+          <p>En MacBook Air er Apples mest populære, ultratynde bærbare computer, som er kendt for sit stilrene design, lette vægt og ekstremt lange batterilevetid.</p>
+
+          <dl class="grid_1-1">
+            <dt>Chip</dt>
+            <dd>Apple M2</dd>
+            <dt>Hukommelse</dt>
+            <dd>8 GB</dd>
+            <dt>Startdisk</dt>
+            <dd>Macintosh HD</dd>
+          </dl>
+        </div>
+      </section>
     </main>
 
     <footer>
       <p>2026 Computere · Lavet med interesse for teknologi og computerudstyr</p>
       <p>Kontakt os for mere info på mail:</p>
-      <a href="tech@gmail.com">tech@gmail.com</a>
+      <a href="mailto:tech@gmail.com">tech@gmail.com</a>
     </footer>
   </body>
 </html>

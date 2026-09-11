@@ -6,21 +6,28 @@
   box-sizing: border-box;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+body {
+  background-color: #f2ebe2;
 }
 
-nav {
+header {
   background-color: #64748b;
+}
+
+/* nav-menu (liste) */
+nav {
   padding: 1rem;
   font-family: quicksand;
-  font-weight: bold;
+  font-weight: lighter;
+  text-transform: uppercase;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
 }
 
-/* nav liste */
-ul {
+nav ul {
   list-style: none;
 }
 
@@ -30,39 +37,57 @@ ul a:visited {
 }
 
 ul a:hover {
-  color: black;
+  text-decoration: underline;
+  text-decoration-color: white;
+}
+
+/*centrer alt indhold*/
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0rem 1rem 0rem;
 }
 
 /*call to action knap*/
 .calltoaction {
   display: block;
-  width: 40%;
-  font-size: 1em;
-  padding: 20px;
-  background-color: gray;
-  text-align: center;
-  border-radius: 30px;
-  margin-bottom: 20px;
-  font-family: quicksand;
+  padding: 12px 24px;
+  font-family: cormorant;
+  background-color: blue;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 22px;
   font-weight: bolder;
+  text-align: center;
   text-transform: uppercase;
+  font-style: italic;
+  transition: 0.3s ease;
+  width: 60%;
+}
+
+.calltoaction:hover {
+  background-color: black;
 }
 
 figcaption {
   font-family: quicksand;
   font-style: italic;
   font-size: 12px;
+  padding-bottom: 1rem;
 }
 
 /*links*/
 a {
   text-decoration: none;
   color: black;
-}
-
-/* main */
-main {
-  margin: 1rem;
 }
 
 h1 {
@@ -77,8 +102,9 @@ h2 {
   font-family: cormorant;
 }
 
-img {
-  margin: 1rem 0rem 1rem 0rem;
+h3 {
+  font-size: 16px;
+  padding-bottom: 0.5rem;
 }
 
 main p {
@@ -87,12 +113,12 @@ main p {
 
 p {
   font-family: quicksand;
+  font-size: 14px;
 }
 
 /* lister */
 dt {
   font-weight: bold;
-  padding: 1rem 0rem 0rem 0rem;
 }
 
 dl {
@@ -100,7 +126,7 @@ dl {
   border: solid;
   border-color: #64748b;
   text-align: center;
-  padding-bottom: 1rem;
+  padding: 2rem;
 }
 
 /* footer */
@@ -115,6 +141,7 @@ footer {
   font-style: italic;
   font-size: 12px;
   padding: 2rem;
+  margin-top: 2rem;
 }
 
 footer a:link,
